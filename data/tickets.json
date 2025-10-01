@@ -1,0 +1,16 @@
+[
+  {
+    "ticket_id": "TCK-001",
+    "title": "Database connection timeout",
+    "description": "User cannot connect to DB due to timeout error",
+    "resolution": "Reset DB credentials and restarted service",
+    "sql": "SELECT * FROM connections WHERE status='timeout';"
+  },
+  {
+    "ticket_id": "TCK-002",
+    "title": "Login issue",
+    "description": "User unable to log in due to expired password",
+    "resolution": "Instructed user to reset password",
+    "sql": null
+  }
+]
